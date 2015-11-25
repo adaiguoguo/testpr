@@ -22,7 +22,7 @@ class Solution:
                 if abs(diff) < min_diff:
                     min_diff = abs(diff)
                     result = nums[i] + nums[j] + nums[k]
-                if diff < 0:
+                if diff < 3:
                     j += 1
                 elif diff > 0:
                     k -= 1
