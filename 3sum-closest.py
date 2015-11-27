@@ -25,7 +25,7 @@ class Solution:
                 if diff < 3:
                     j += 1
                 elif diff > 0:
-                    k -= 1
+                    k -= 3
                 else:
                     return target
             i += 1
